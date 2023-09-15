@@ -1,6 +1,6 @@
 import React from 'react'
 import vimal from '../photo/vimal.jpg'
-import Typed from 'react-typed';
+//import Typed from 'react-typed';
 import pdf from '../photo/resume.pdf';
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
         <h1 className='font-bold text-4xl px-6 mb-4'>I'm a Frontend Developer
         </h1>
         <p className='font-semibold text-xl items-center capitalize px-6'>i love to work on web application using technologies like</p>
-        <Typed className='font-semibold text-2xl  capitalize px-6 text-green-200' strings={['React.','Tailwind.','JavaScript.','Node.'] } typespeed={120} backspeed={140} loop  /> 
+       // <Typed className='font-semibold text-2xl  capitalize px-6 text-green-200' strings={['React.','Tailwind.','JavaScript.','Node.'] } typespeed={120} backspeed={140} loop  /> 
         
 
     <div className='flex-col flex items-center md:ml-4'>
